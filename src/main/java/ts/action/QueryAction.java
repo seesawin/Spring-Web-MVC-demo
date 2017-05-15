@@ -31,7 +31,7 @@ public class QueryAction {
 
 	@RequestMapping("/execSearch")
 	public String execSearch() {
-		queryService.searchCityByExample("Taipei16");
+		queryService.searchCityByExample("Taipei17");
 		return "index";
 	}
 	
